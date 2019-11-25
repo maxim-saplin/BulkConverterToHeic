@@ -12,7 +12,7 @@ If you get brew errors (such as "You should change the ownership and permissions
 
 # Usage
 
-Download .sh file, run it via terminal passing the path to the target folder with images to be converted. 
+Download **heic.sh** file, run it via terminal passing the path to the target folder with images to be converted. 
 If you want all subfolders to be processed use **subfolders** option. 
 If you want originals to be deleted after (successful) conversion use **remove** option.
 ```
