@@ -1,4 +1,4 @@
-# BulkConverterToHeic
+# Bulk Image Converter To Heic
 Shell script (ZSH) for macOS to do bulk image conversion of JPG, PNG, BMP images to HEIC/HEIF files with metadata preservation. Tested on 10.15 (Catalina)
 
 # Prerequisites
