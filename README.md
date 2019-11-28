@@ -1,5 +1,5 @@
 # Bulk Image Converter To Heic
-Shell script (ZSH) for macOS to do bulk image conversion of JPG, PNG, BMP images to HEIC/HEIF files with metadata preservation. Original files can be deleted after the conversion is over. Tested on 10.15 (Catalina) and 10.14 (Mojave).
+Shell script (ZSH) for macOS to do bulk image conversion of JPG, PNG, BMP images to HEIC/HEIF files (2-3x times smaller than same dimension/quality JPGs) with metadata preservation. Original files can be deleted after the conversion is over. Tested on 10.15 (Catalina) and 10.14 (Mojave).
 
 # 2 SCRIPTS
 * SIPS (heic_sips.sh) - based on Apple's Scriptable Image Processing System.
