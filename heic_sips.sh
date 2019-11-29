@@ -2,6 +2,7 @@
 #set -x
 #setopt interactivecomments
 setopt +o nomatch
+unsetopt CASE_GLOB #case insensitive *.
 
 echoo () {
   echo $'\e[0;103m' $1 $'\e[0m'
@@ -28,8 +29,8 @@ then
   path_wildcard="**/*/"
 fi
 
-#exts=("jpg" "jpeg" "bmp" "png")
-exts=("jpg" "png")
+exts=("jpg" "jpeg" "bmp" "png")
+
 echoo "\tCONVERTING FILES WITH EXTENSIONS: $exts";
 if [[ $subfolders -eq 1 ]];
 then
