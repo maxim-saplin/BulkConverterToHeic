@@ -15,7 +15,7 @@ Shell script (ZSH) for macOS to do bulk image conversion of JPG, PNG, BMP, DNG, 
 
 Download **heic_sips.sh** or **heic_magick.sh**file, run it via terminal passing the path to the target folder with images to be converted. 
 If you want all subfolders to be processed use **subfolders** option. 
-If you want originals to be deleted after (successful) conversion use **remove** option.
+If you want originals to be deleted after (successful) conversion use **remove** option (individual files that were not converted wouldn't be deleted).
 ```
 zsh /Users/userA/Desktop/heic_sips.sh /Users/userA/Images subfolders remove
 ```
