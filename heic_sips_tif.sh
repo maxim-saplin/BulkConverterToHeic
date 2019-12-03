@@ -29,7 +29,7 @@ then
   path_wildcard="**/*/"
 fi
 
-exts=("jpg" "jpeg" "bmp" "png" "dng" "tif" "arw")
+exts=("tif")
 
 echoo "\tCONVERTING FILES WITH EXTENSIONS: $exts";
 if [[ $subfolders -eq 1 ]];
