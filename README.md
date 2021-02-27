@@ -3,7 +3,7 @@ Shell script (ZSH) for macOS to do bulk image conversion of JPG, PNG, BMP, DNG, 
 
 # 2 SCRIPTS
 * SIPS (heic_sips.sh) - based on Apple's Scriptable Image Processing System.
-  * Works only on 10.15
+  * Works only on 10.15+
   * There's a SIPS error message always shown (as of November 2019? might be fixed in future releases of macOS): AVEBridge Info: AVEEncoder_CreateInstance: ... - you can ignore the message   
   * 2-3x times faster than ImageMagick
 * ImageMagick (heic_magick.sh) - based on open source command line tool https://imagemagick.org
