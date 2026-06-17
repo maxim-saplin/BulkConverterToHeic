@@ -16,7 +16,7 @@ echoo() {
 
 start=$(date +%s)
 
-cd $1
+cd "$1" || { echo "ERROR: Cannot cd into '$1', aborting."; exit 1; }
 
 remove=0
 subfolders=0
